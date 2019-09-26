@@ -1,8 +1,7 @@
 from django.db import models
 
 
-class image(models.Model):
-    upload = models.ImageField(upload_to='uploadedimages')
+# MODEL CREATIONS
 
-    class Meta:
-        db_table = "image"
+class ImageUpload(models.Model):
+    document = models.ImageField(upload_to='images')
