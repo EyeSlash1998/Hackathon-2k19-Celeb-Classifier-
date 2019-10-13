@@ -1,0 +1,178 @@
+/* 
+===================
+===Prerequisites===
+=================== 
+*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Hind+Madurai|Righteous&display=swap');
+
+/* Scroll Behaviour */
+html{
+	scroll-behavior: smooth;
+}
+.active{
+	transform: scale(1.2);
+}
+/* body by default */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	position: relative;
+	font-family: 'Arial', sans-serif;
+}
+
+body > a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all; /* Safari */
+	-moz-transition: 0.5s all; /* Firefox */
+	-o-transition: 0.5s all; /* Opera */
+	-ms-transition: 0.5s all; /* Internet Explorer */
+}
+a:hover{
+	text-decoration: none;
+}
+
+input[type = "button"], input[type = "submit"]{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all; /* Safari */
+	-moz-transition: 0.5s all; /* Firefox */
+	-o-transition: 0.5s all; /* Opera */
+	-ms-transition: 0.5s all; /* Internet Explorer */
+}
+/* All heading Tags assigned margin 0 */
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+}
+.validation{
+	color: darkblue;
+	padding: 4px;
+	background-color: #ccd;
+	width: 200px;
+	margin: 5px 5px;
+}
+/* 
+========================
+===Prerequisites Ends===
+======================== 
+*/
+
+/* ============================================================================ */
+
+/* 
+===================
+===NAVBAR SECTION===
+=================== 
+*/
+
+.blog{
+	background: url('wallpaper1.png');
+	background-size: cover;
+	background-repeat: no-repeat; 
+	height: 100vh;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+.navbar .navbar-brand{
+    color : #fff !important;
+    font-size: 27px;
+    font-family: 'Righteous', cursive;
+}
+.navbar .navbar-brand i{
+	color : #fff;
+    font-size: 30px;
+}
+.navbar .navbar-nav{
+    margin : 0 auto;
+}
+.navbar .nav-item a{
+    color: #fff !important;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin: 0 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar .nav-item a:hover{
+    color: #111 !important;
+    background-color: #fff;
+}
+
+.active{
+	font-weight: bold;
+}
+.navbar-toggler{
+	background-color: #fff;
+	color: #fff !important;
+}
+/* 
+=========================
+===NAVBAR SECTION ENDS===
+========================= 
+*/
+.main-heading{
+	margin: 100px 0px 0 0;
+	width: 800px;
+}
+.main-heading h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: bolder;
+	font-family: 'Hind Madurai', sans-serif;
+}
+.main-heading p{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+	background-color: #DA9103;
+
+}
+.getstarted{
+	margin-top: 50px;
+}
+.getstarted a {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 19px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.getstarted a:hover{
+	background-color: #fff;
+	color: #222;
+}
+.input-form{
+	margin-top: 50px;
+	width: 350px;
+
+}
+.input-form label{
+	color: #fff;
+}
+.input-form input[type="submit"]{
+	background-color: #fff;
+	color: #111;
+	border: 2px solid #111;
+}
+.chatbot{
+	position: absolute;
+	z-index: 99;
+	bottom: 0;
+	right: 0;
+}
